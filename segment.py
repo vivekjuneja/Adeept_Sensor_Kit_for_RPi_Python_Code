@@ -80,7 +80,6 @@ class SegmentDisplay(object):
 		GPIO.cleanup()
 
 
-'''
 tmp = 0
 
 display = SegmentDisplay()
@@ -100,4 +99,3 @@ try:
 	
 except KeyboardInterrupt:
 	display.cleanup()
-'''
